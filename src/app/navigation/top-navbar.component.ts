@@ -2,8 +2,8 @@ import { Component } from "@angular/core";
 
 @Component({
     selector: 'da-navbar',
-    templateUrl: './navbar.component.html',
-    styleUrls: ['./navbar.component.css']
+    templateUrl: './top-navbar.component.html',
+    styleUrls: ['./top-navbar.component.css']
 })
 export class navBarComponent {
 

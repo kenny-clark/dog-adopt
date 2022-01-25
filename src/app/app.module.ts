@@ -1,13 +1,17 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { navBarComponent } from 'src/app/navigation/navbar.component';
+import { navBarComponent } from 'src/app/navigation/top-navbar.component';
 
 import { AppComponent } from './app.component';
+import { Footer1 } from './navigation/footer/footer1.component';
+import { Footer2 } from './navigation/footer/footer2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    navBarComponent
+    navBarComponent, 
+    Footer1,
+    Footer2
   ],
   imports: [
     BrowserModule
