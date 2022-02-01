@@ -1,0 +1,18 @@
+.da{
+    font-family: Nexa Regular,arial,helvetica,sans-serif;
+    font-size: 20px;
+    color: purple;
+    color-adjust: purple;
+    border-radius: 50%;
+
+}
+.card{
+    border-radius: 15px;
+
+}
+
+.card-body{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: whitesmoke;
+}
