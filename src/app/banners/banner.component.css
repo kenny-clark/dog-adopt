@@ -1,0 +1,24 @@
+.card-title{
+    margin-left: 15%;
+    margin-top: 3%;
+    font-family:'Nexa Regular', helvetica, arial, sans-serif;
+    font-size: 45px;
+    text-shadow: 2px 2px 3px black;
+}
+.card-text{
+    margin-left: 15%;
+    font-size: 18px;
+}
+
+.btn{
+    margin-left: 15%;
+    background-color: #6504b5;
+    color: white;
+    border-radius: 16px;
+    font-family: "Nexa Heavy,arial,helvetica,sans-serif";
+    font-weight: bolder;
+    width: 15%;
+}
+.btn:hover{
+    background-color: #2e0152;
+}

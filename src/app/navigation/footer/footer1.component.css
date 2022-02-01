@@ -1,0 +1,15 @@
+.color{
+    background-color: #6504b5;
+    background-size: 100%;
+}
+.col{
+    color: white;
+}
+.nav-link{
+    color: white;
+}
+.btn{
+    border-radius: 16px;
+    border-color: white;
+    color: white;
+}

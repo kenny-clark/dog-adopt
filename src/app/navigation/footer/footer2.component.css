@@ -1,0 +1,12 @@
+.container{
+    background-color: #2e0152;
+    width: 100%;
+}
+.text-muted{
+    fill: #ddb4ff;
+    color: #ddb4ff;
+    font-size: 11px;
+}
+.text-color{
+    color: #ddb4ff;
+}
