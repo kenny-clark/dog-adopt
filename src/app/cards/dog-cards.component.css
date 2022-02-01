@@ -8,11 +8,32 @@
 }
 .card{
     border-radius: 15px;
-
 }
-
-.card-body{
+.spacing{
+    border-radius: 50%;
+    border-color: white;
+}
+.badge{
+    background-color: white;
+    top: 80%;
+    width: 100%;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    background-color: whitesmoke;
+}
+
+.btn{
+    background-color: white;
+    top: 8%;
+    left: 90%;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    opacity: 75%;
+}
+
+.btn:hover{
+    opacity: 100%;
+}
+.bi{
+    left: 17%;
 }

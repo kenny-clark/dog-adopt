@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { navBarComponent } from 'src/app/navigation/top-navbar.component';
 import { AppComponent } from './app.component';
+import { bannerComponent } from './banners/banner.component';
 import { dogCards } from './cards/dog-cards.component';
 import { Footer1 } from './navigation/footer/footer1.component';
 import { Footer2 } from './navigation/footer/footer2.component';
@@ -12,7 +13,8 @@ import { Footer2 } from './navigation/footer/footer2.component';
     navBarComponent, 
     Footer1,
     Footer2,
-    dogCards
+    dogCards,
+    bannerComponent
   ],
   imports: [
     BrowserModule
