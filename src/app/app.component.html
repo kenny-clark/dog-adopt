@@ -6,9 +6,16 @@
   loading...
 </da-banner>
 
-<da-dogCards>
-  
-</da-dogCards>
+<div class="container-fluid d-flex">
+  <div *ngFor="let dog of dogCards1">
+    <da-dogCards class="mx-2" img={{dog.img}} name={{dog.name}}>
+
+    </da-dogCards>
+  </div>
+</div>
+
+
+
 
 <da-footer1>
   loading...

@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector: "da-dogCards",
@@ -6,5 +6,11 @@ import { Component } from "@angular/core";
     styleUrls: ["./dog-cards.component.css"]
 })
 export class dogCards{
+    @Input() img: string;
+    @Input() name: string;
 
+    constructor(){
+        this.img = "./assets/ajay2.png";
+        this.name = "Error"
+    }
 }
