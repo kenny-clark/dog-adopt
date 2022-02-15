@@ -1,0 +1,16 @@
+.navbar{
+    color: white;
+}
+.text{
+    color: black;
+    margin-left: 30px;
+}
+.btn{
+    background-color: #6504b5;
+    color: white;
+    border-radius: 16px;
+    font-family: "Nexa Heavy,arial,helvetica,sans-serif";
+    font-weight: bolder;
+    margin-left: 25px;
+    margin-right: 25px;
+}

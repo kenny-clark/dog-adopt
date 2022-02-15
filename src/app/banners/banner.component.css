@@ -1,7 +1,7 @@
 .card-title{
     margin-left: 15%;
     margin-top: 3%;
-    font-family:'Nexa Regular', helvetica, arial, sans-serif;
+    font-family:'Nexa Regular, helvetica, arial, sans-serif';
     font-size: 45px;
     text-shadow: 2px 2px 3px black;
 }

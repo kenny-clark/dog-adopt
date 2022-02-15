@@ -1,0 +1,42 @@
+.card{
+    width: 500px;
+    height: 500px;
+}
+.card-title{
+    font-family: Nexa Bold,arial,helvetica,sans-serif;
+    font-size: 34px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    color: #4d4751;  
+}
+.card-subtitle{
+    font-family: Nexa Regular,arial,helvetica,sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 35px;
+    color: #4d4751;
+}
+.btn{
+    border-radius: 16px;
+    width: 75%;
+    margin-bottom:  15px;
+    margin-left: 30px;
+    text-align: center;
+}
+.btn1{
+    background-color: #3c5a99;
+    color: white;
+}
+.btn2{
+    border-color:#4d4751;
+}
+.btn3{
+    border-color: #6504b5;
+    color: #6504b5;
+}
+.card-text{
+    text-align: center;
+    margin-top: 25px;
+}
