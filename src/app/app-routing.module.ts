@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { joinCards } from './cards/join-cards.component';
 import { HomeLayoutComponent } from './home-layout.component';
+import { applyBar } from './navigation/toppers/top-applybar.component';
 
 const routes: Routes = [
   {
@@ -11,6 +12,9 @@ const routes: Routes = [
   },
   {
     path: 'favorite', component: joinCards
+  },
+  {
+    path: 'register', component: applyBar
   },
   {
     path: 'home',

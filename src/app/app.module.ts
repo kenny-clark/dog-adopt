@@ -10,7 +10,8 @@ import { Footer2 } from './navigation/footer/footer2.component';
 import { applyBar } from './navigation/toppers/top-applybar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeLayoutComponent } from './home-layout.component';
-
+import {HttpClientModule} from '@angular/common/http';
+import { UserInfoComponent } from './user-info/user-info.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,11 +22,13 @@ import { HomeLayoutComponent } from './home-layout.component';
     bannerComponent,
     joinCards,
     applyBar,
-    HomeLayoutComponent
+    HomeLayoutComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
