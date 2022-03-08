@@ -10,5 +10,9 @@ export const mock_dogcards_list = [
     {
         img: "./assets/drako.png",
         name: "Drako"
+    },
+    {
+        img: "./assets/cody3.png",
+        name: "Cody"
     }
 ]
