@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "dog-adopt-e7baf"
+  },
+  "targets": {
+    "dog-adopt-e7baf": {
+      "hosting": {
+        "dog-adopt": [
+          "dog-adopt-e7baf"
+        ]
+      }
+    }
+  }
+}

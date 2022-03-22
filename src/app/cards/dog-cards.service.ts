@@ -1,23 +1,20 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { DogCardModel } from "./dog-cards.model";
-
+import { AngularFireDatabase } from '@angular/fire/compat/database';
 @Injectable(
     {providedIn: 'root'}
 )
 export class dogCardService{
-    private baseUrl:string = "https://dog-adopt-e7baf-default-rtdb.firebaseio.com/";
-    private dogCardEndPoint:string = "dogcards.json";
-
-    constructor(private http: HttpClient){
+    constructor(private db:AngularFireDatabase){
 
     }
 
     getProducts(){
-        return this.http.get<DogCardModel[]>(this.baseUrl + this.dogCardEndPoint);
+        return this.db.list<DogCardModel>("dogcards").valueChanges();
     }
 
     getProduct(index:number){
-        return this.http.get<DogCardModel>(this.baseUrl + 'dogcards' + '/' + index + '.json');
+        
     }
 }
