@@ -17,4 +17,8 @@ export class dogCardService{
     getProduct(index:number){
         
     }
+
+    addCard(card:DogCardModel){
+        this.db.list<DogCardModel>("cards").push(card);
+    }
 }
