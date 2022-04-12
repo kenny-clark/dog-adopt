@@ -5,6 +5,7 @@ import { joinCards } from './cards/join-cards.component';
 import { HomeLayoutComponent } from './home-layout.component';
 import { applyBar } from './navigation/toppers/top-applybar.component';
 import { CardsComponent } from './cards/cards.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes: Routes = [
   {
@@ -23,6 +24,9 @@ const routes: Routes = [
   },
   {
     path: 'admin', component: CardsComponent
+  },
+  {
+    path: 'auth', component: AuthenticationComponent
   }
 ];
 
